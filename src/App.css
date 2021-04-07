@@ -8,39 +8,213 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up
+{
   display: flex;
   height: 90vh;
   /*align-items: center;*/
   justify-content: center;
   font-size: 3rem;
+  
 }
 
 .services {
   background-image: url('https://pickyourtrail.com/blog/wp-content/uploads/2020/05/david-rodrigo-kZ1zThg6G40-unsplash-1.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      animation: colorchange 10s infinite;    
+}
+
+.p{
+  width:100%;
+  color:#313131;
+      font-size:25px;
+      font-weight: bold;
+      position: absolute;
+      top: 210px;
+      left: 15px;
+
+}
+
+@keyframes colorchange {
+
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
 }
 
 .products {
- background-image: url('https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg');
-  background-position: center;
-  background-size: fill;
-  color: #fff;
-  font-size: 100px;
- 
- 
+  font-size: 20px;
+  margin-top: 40px;
+  color: rgb(0, 105, 0);
+
+}
+
+/* .para{
+  margin-bottom: 24px;
+  position: absolute;
+  top: 200px;
+  left: 290px;
+}
+.contact-line{
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  font-size: 30px;
 }
 
 
+@media only screen and (min-width: 767px) {
+  .para {
+    display: flex;
+    margin: 0 0 24px;
+    font-family: 'DM Serif Display',sans-serif;
+    color: #353640;
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 400;
+     }
+}
+
+@media only screen and (max-width: 991px) {
+  .para {
+    font-size: 54px;
+    line-height: 60px;
+    position: absolute;
+    left: 15px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .contact-line {
+    display: flex;
+    margin: 0 0 24px;
+    font-family: 'DM Serif Display',sans-serif;
+    color: #353640;
+    font-size: 52px;
+    line-height: 1;
+    font-weight: 400;
+     }
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-line {
+    font-size: 24px;
+    line-height: 60px;
+    position: absolute;
+    margin-top: 30PX;
+    left: 75px;
+  }
+}*/
+
+
+
 .sign-up {
-  background-image: url('https://www.nature.com/immersive/d41586-021-00095-y/assets/mhyLY1FyCz/2021-01-xx_jan-iom_tree-of-life_sh-1080x1440.jpeg');
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+
+.contact-container {
+background-color: #242424;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #fff;
+}
+
+.contact-container > p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-heading {
+  margin-bottom: 24px;
+  font-size: 54px;
+}
+
+.contact-heading2 {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.contact-img{
+  margin-bottom: 0px;
+  }
+
+@media only screen and (max-width: 991px) {
+  .contact-img {
+    width: 100%;
+    height: auto;
+  }
 }

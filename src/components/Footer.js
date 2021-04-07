@@ -37,7 +37,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
+            <Link to='/products'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              Shray
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>10-4-2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
