@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../../App.css';
+import Footer from '../Footer';
 
 
 export default function Products() {
@@ -21,6 +22,7 @@ export default function Products() {
       
       </section>
       </div>
+      <Footer />
       </>
 
   )}
