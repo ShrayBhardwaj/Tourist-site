@@ -19,7 +19,7 @@ export default function Products() {
       <p className='contact-heading2'>
       See the details below to contact-us
       </p>
-      
+      <p className="contact-num">9023689908<br />Shray2037@gmail.com<br /><br />Any query then mail to this email. We would solve your query</p>
       </section>
       </div>
       <Footer />
