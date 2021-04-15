@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Link, Redirect } from 'react-router-dom'
 
 import '../../App.css';
 import Footer from '../Footer';
 
 
-export default function Products() {
+export default class Products extends Component {
+  constructor(props){
+    super(props)
+    const token = localStorage.getItem("token")
+
+    let loggedIn = true
+    if(token == null){
+        loggedIn =false
+    }
+    
+    this.state ={
+        loggedIn
+    }
+}
+  render(){
+    if(this.state.loggedIn === false){
+      return <Redirect to="/sign-up" />
+  }
+
   return (
   
    <>
@@ -25,4 +44,4 @@ export default function Products() {
       <Footer />
       </>
 
-  )}
+  )}}

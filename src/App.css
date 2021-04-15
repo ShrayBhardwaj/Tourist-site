@@ -12,24 +12,17 @@
 .sign-up
 {
   display: flex;
-  height: 90vh;
+  height: 70vh;
   /*align-items: center;*/
   justify-content: center;
   font-size: 3rem;
   
 }
+ /* this is terperary removed beacuse in this Api the data is shown in the screen directly but not serch and 
+ in this, the Api is next to the google Api if the google api is not done then this api is must be used 
+ but in functional component . Now in service page we use class component*/
 
-.services {
-  background-image: url('https://pickyourtrail.com/blog/wp-content/uploads/2020/05/david-rodrigo-kZ1zThg6G40-unsplash-1.jpg');
-  background-position: center;
-  background-size: cover;
-  color:#313131;
-      font-size:45px;
-      font-weight: bold;
-      animation: colorchange 10s infinite;    
-}
-
-.service-input{
+/*.service-input{
   padding: 8px 20px;
   border-radius: 2px;
   margin-right: 10px;
@@ -59,11 +52,11 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
-  }
+  }*/
 
-.p{
+/*.p{
   width:100%;
-  color:#313131;
+  color:#f7e8e8;
       font-size:25px;
       font-weight: bold;
       position: absolute;
@@ -78,11 +71,21 @@
 }
 
 .p{
-  font-size: 12pt;  
+  font-size: 20pt;  
   padding-left:5pt; 
   font-family:Arial, sans-serif;
   align-items: center;
+  
+}*/
 
+.services {
+ background-image: url('https://pickyourtrail.com/blog/wp-content/uploads/2020/05/david-rodrigo-kZ1zThg6G40-unsplash-1.jpg');
+  background-position: center;
+  background-size: cover;
+  color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      animation: colorchange 10s infinite;    
 }
 
 @keyframes colorchange {
@@ -148,6 +151,7 @@
   color: rgb(0, 105, 0);
 
 }
+ /* this is optional  for now */
 
 /* .para{
   margin-bottom: 24px;
@@ -205,18 +209,6 @@
     left: 75px;
   }
 }*/
-
-
-
-.sign-up {
-background-image: url('https://static.toiimg.com/photo/38602856.cms');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 
 .contact-container {
 background-color: #242424;
@@ -284,4 +276,14 @@ background-color: #242424;
   color: #fff;
 }
 
+/*sign up now at that time to be comment because th <h1 className="sign-up>hello</h1> is temperary removed
+.sign-up {
+  background-image: url('https://static.toiimg.com/photo/38602856.cms');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+*/
 
